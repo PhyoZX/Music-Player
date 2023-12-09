@@ -1,0 +1,47 @@
+body{
+	background-color: #E3A9DE;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+}
+.Item{
+	color: #F104DC;
+	font-size: 20px;
+	border-bottom: 1px solid #602BE5;
+	padding: 8px 0px;
+	cursor: pointer;
+	user-select: none;
+}
+.playList{
+	margin-bottom: 20px;
+}
+.musicPlayer{
+	display: flex;
+	flex-direction: row;
+}
+#prograssBar{
+	height: 5px;
+	width: 500px;
+	background-color: #602BE5;
+}
+#currentPrograss{
+	width: 0%;
+	height: 100%;
+	background-color:#F104DC;
+}
+.time{
+	color: #fff;
+}
+.controls{
+	color: #fff;
+	font-size: 20px;
+	margin: 20px 40px ;
+	cursor: pointer;
+}
+.pauseButton{
+	display: none;
+}
